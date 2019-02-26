@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "name": "petu",
+  "alias": "petu",
+  "builds": [
+    { "src": "index.html", "use": "@now/static" },
+    { "src": "/public/*", "use": "@now/static" }
+  ]
+}
